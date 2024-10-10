@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/Library/Project_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "InsulationMeter-rescue")(type "Legacy")(uri "C:/WorkDiractory/Kicad/EVD/Kicad_InsulationMeter/InsulationMeter-rescue.lib")(options "")(descr ""))
+  (lib (name "C2000Board-rescue")(type "Legacy")(uri "C:/WorkDiractory/Kicad/EVD-80/Kicad_C2000Board/C2000Board-rescue.lib")(options "")(descr ""))
+  (lib (name "temp_lib")(type "KiCad")(uri "C:/WorkDiractory/Kicad/BG/VCU/Library/temp_lib.kicad_sym")(options "")(descr ""))
+)
