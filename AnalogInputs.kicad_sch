@@ -3060,7 +3060,7 @@
 		)
 	)
 	(global_label "BRK_1_SENSE"
-		(shape input)
+		(shape output)
 		(at 273.05 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3071,7 +3071,7 @@
 		)
 		(uuid "40eba10d-c0ed-44c6-ac7b-cbac4c0f6c30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.4655 62.1506 0)
+			(at 289.0374 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3082,7 @@
 		)
 	)
 	(global_label "THR_1_SENSE"
-		(shape input)
+		(shape output)
 		(at 139.7 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3093,7 +3093,7 @@
 		)
 		(uuid "5c9fca47-371d-475f-95a4-08cd5fa996be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.8736 62.1506 0)
+			(at 155.4455 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3104,7 @@
 		)
 	)
 	(global_label "BRK_2_SENSE"
-		(shape input)
+		(shape output)
 		(at 273.05 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3115,7 +3115,7 @@
 		)
 		(uuid "b5578479-eb51-4bf0-aaa0-a24222b409c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.4655 126.9206 0)
+			(at 289.0374 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3148,7 @@
 		)
 	)
 	(global_label "THR_2_SENSE"
-		(shape input)
+		(shape output)
 		(at 139.7 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3159,7 +3159,7 @@
 		)
 		(uuid "e1549b3c-ebc8-4bd9-aff4-1ed9582791ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.8736 126.9206 0)
+			(at 155.4455 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
