@@ -6077,7 +6077,7 @@
 		)
 	)
 	(global_label "PCB_TEMP"
-		(shape input)
+		(shape output)
 		(at 152.4 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6088,11 +6088,12 @@
 		)
 		(uuid "3d4539b0-23e1-4583-866b-80c92adf7591")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 -12.7 0)
+			(at 165.0008 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)

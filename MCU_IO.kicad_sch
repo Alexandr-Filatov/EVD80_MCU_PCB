@@ -5593,10 +5593,6 @@
 		(at 341.63 60.96)
 		(uuid "e2c1d634-e279-42f3-9eee-8d6c16632ddf")
 	)
-	(no_connect
-		(at 181.61 73.66)
-		(uuid "ed29f25d-bb9f-48df-9528-d4b2d83658a0")
-	)
 	(wire
 		(pts
 			(xy 317.5 114.3) (xy 314.96 114.3)
@@ -7439,6 +7435,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb03472-3a81-4043-b66e-9585ec1ec84f")
+	)
+	(wire
+		(pts
 			(xy 344.17 73.66) (xy 344.17 71.12)
 		)
 		(stroke
@@ -8143,6 +8149,28 @@
 			)
 		)
 	)
+	(global_label "TEMP_PW_B_SENSE"
+		(shape input)
+		(at 179.07 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09df9c0a-422d-4308-b2c0-b6cb62210c1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.3051 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO42"
 		(shape input)
 		(at 125.73 86.36 0)
@@ -8297,28 +8325,6 @@
 			)
 		)
 	)
-	(global_label "FAULT_PW_FLT"
-		(shape input)
-		(at 64.77 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "189d2b2f-c328-4ab5-8a9a-23e4b1a77e79")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.1126 187.8806 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO29"
 		(shape input)
 		(at 125.73 53.34 0)
@@ -8343,7 +8349,7 @@
 	)
 	(global_label "TEMP_FW_SENSE"
 		(shape input)
-		(at 179.07 58.42 180)
+		(at 179.07 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8353,7 +8359,7 @@
 		)
 		(uuid "1b96aad2-8f66-4b5e-9a29-27f4c208e742")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2959 58.4994 0)
+			(at 161.2959 73.7394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8937,7 +8943,7 @@
 	)
 	(global_label "VDC_SENSE"
 		(shape input)
-		(at 179.07 81.28 180)
+		(at 179.07 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8947,7 +8953,7 @@
 		)
 		(uuid "4b0e8e24-d12c-4384-ab9d-0f9732f70149")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.0131 81.3594 0)
+			(at 166.0131 58.4994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,28 +9135,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO70"
-		(shape input)
-		(at 64.77 195.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5b13b4d8-2dd6-4f66-accf-e3b1bdbc99d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4626 195.5006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9388,6 +9372,28 @@
 		(uuid "6fccf12d-d7cd-4c92-8c12-31c486c73ccc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 55.4626 154.8606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAULT_PW_A_FLT"
+		(shape input)
+		(at 64.77 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70529e4d-bdf3-46ea-8a04-9b757783bc2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.4843 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +9757,7 @@
 	)
 	(global_label "FW_CUR_SENSE"
 		(shape input)
-		(at 179.07 78.74 180)
+		(at 179.07 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9761,7 +9767,7 @@
 		)
 		(uuid "9501739d-3304-4122-bb6a-7e7c02655219")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.2636 78.6606 0)
+			(at 162.2636 55.8006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,49 +10085,6 @@
 			)
 		)
 	)
-	(global_label "PCB_TEMP"
-		(shape input)
-		(at 179.07 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b12ab0ec-2700-4cf2-b3c4-6b7a4f666454")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO69"
-		(shape input)
-		(at 64.77 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b4b521a8-3e4d-45bb-b10c-de4545b26719")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4626 192.9606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO20"
 		(shape input)
 		(at 64.77 93.98 180)
@@ -10355,6 +10318,28 @@
 		(uuid "c0760f99-f54e-49f3-bbf3-e93da5389072")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 55.4626 170.1006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAULT_PW_C_FLT"
+		(shape input)
+		(at 64.77 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c21e7358-b760-4af3-9eb2-8b8dc60f6dbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3029 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10672,6 +10657,28 @@
 			)
 		)
 	)
+	(global_label "FAULT_PW_B_FLT"
+		(shape input)
+		(at 64.77 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d543e7b4-2213-4234-b433-27ad1c273529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.3029 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO28"
 		(shape input)
 		(at 125.73 50.8 0)
@@ -10707,6 +10714,72 @@
 		(uuid "da8e7cce-930a-436f-b731-7030802f995b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.7907 149.7806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMP_PW_C_SENSE"
+		(shape input)
+		(at 179.07 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dae36b69-fe16-4d67-96bc-f0ead712f2f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.3051 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TEMP_PW_A_SENSE"
+		(shape input)
+		(at 179.07 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db80c8ee-2aca-4d9f-82cc-76544fb6c5fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.4865 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCB_TEMP"
+		(shape input)
+		(at 180.34 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddef08d1-6147-4efc-954e-924f4aa43a86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.7392 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,28 +10829,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMP_PW_SENSE"
-		(shape input)
-		(at 179.07 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e391ad56-a496-4327-beec-9524daacaded")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.1145 55.9594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
