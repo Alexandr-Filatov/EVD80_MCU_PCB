@@ -11707,7 +11707,7 @@
 		(uuid "bd569dee-bc97-4eea-aaab-ec9f2cc517cd")
 	)
 	(global_label "VREFHIC"
-		(shape input)
+		(shape output)
 		(at 129.54 250.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11718,7 +11718,7 @@
 		)
 		(uuid "07109021-1636-48b1-a562-c43ca41fa611")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7545 250.1106 0)
+			(at 140.3267 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11729,7 @@
 		)
 	)
 	(global_label "VREFHID"
-		(shape input)
+		(shape output)
 		(at 193.04 250.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11740,7 +11740,7 @@
 		)
 		(uuid "48bf6019-f30c-4a8d-86e9-fd0c1305c4e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2545 250.1106 0)
+			(at 203.8267 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,7 +11751,7 @@
 		)
 	)
 	(global_label "VREFHIA"
-		(shape input)
+		(shape output)
 		(at 191.77 212.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11762,7 +11762,7 @@
 		)
 		(uuid "9d83ca52-7dcc-4d10-a7dc-0b48d0557bf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.8031 212.0106 0)
+			(at 202.3753 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11773,7 +11773,7 @@
 		)
 	)
 	(global_label "VREFHIB"
-		(shape input)
+		(shape output)
 		(at 128.27 212.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -11784,7 +11784,7 @@
 		)
 		(uuid "dcc5d8a1-b524-4797-909a-ab4289a8e0f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.4845 212.0106 0)
+			(at 139.0567 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

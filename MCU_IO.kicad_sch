@@ -5578,6 +5578,10 @@
 		(uuid "7c619205-6321-4232-9a4d-d88ff42d3700")
 	)
 	(no_connect
+		(at 179.07 73.66)
+		(uuid "7e8a1358-2108-4252-b38a-439e46c7251a")
+	)
+	(no_connect
 		(at 198.12 224.79)
 		(uuid "8e03464c-3355-463b-97ae-d78376078e77")
 	)
@@ -8149,28 +8153,6 @@
 			)
 		)
 	)
-	(global_label "TEMP_PW_B_SENSE"
-		(shape input)
-		(at 179.07 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09df9c0a-422d-4308-b2c0-b6cb62210c1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.3051 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO42"
 		(shape input)
 		(at 125.73 86.36 0)
@@ -8189,6 +8171,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S0_TEMP_MULIPLEX"
+		(shape input)
+		(at 274.32 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d38b64e-b914-46e4-bcb5-c2575e28bf97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.0712 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8349,7 +8353,7 @@
 	)
 	(global_label "TEMP_FW_SENSE"
 		(shape input)
-		(at 179.07 73.66 180)
+		(at 179.07 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8359,7 +8363,7 @@
 		)
 		(uuid "1b96aad2-8f66-4b5e-9a29-27f4c208e742")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2959 73.7394 0)
+			(at 161.2959 58.4994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +8947,7 @@
 	)
 	(global_label "VDC_SENSE"
 		(shape input)
-		(at 179.07 58.42 180)
+		(at 179.07 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8953,7 +8957,7 @@
 		)
 		(uuid "4b0e8e24-d12c-4384-ab9d-0f9732f70149")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.0131 58.4994 0)
+			(at 166.0131 81.3594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +9761,7 @@
 	)
 	(global_label "FW_CUR_SENSE"
 		(shape input)
-		(at 179.07 55.88 180)
+		(at 179.07 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9767,7 +9771,7 @@
 		)
 		(uuid "9501739d-3304-4122-bb6a-7e7c02655219")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.2636 55.8006 0)
+			(at 162.2636 78.6606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10701,6 +10705,28 @@
 			)
 		)
 	)
+	(global_label "S1_TEMP_MULIPLEX"
+		(shape input)
+		(at 274.32 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d74cf579-3294-4dac-bc2a-d65ac8951b27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.0712 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC_OUT"
 		(shape input)
 		(at 181.61 149.86 180)
@@ -10723,31 +10749,9 @@
 			)
 		)
 	)
-	(global_label "TEMP_PW_C_SENSE"
+	(global_label "TEMP_PW_SENSE"
 		(shape input)
-		(at 179.07 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dae36b69-fe16-4d67-96bc-f0ead712f2f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.3051 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TEMP_PW_A_SENSE"
-		(shape input)
-		(at 179.07 76.2 180)
+		(at 179.07 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10757,7 +10761,7 @@
 		)
 		(uuid "db80c8ee-2aca-4d9f-82cc-76544fb6c5fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.4865 76.2 0)
+			(at 160.5427 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +10773,7 @@
 	)
 	(global_label "PCB_TEMP"
 		(shape input)
-		(at 180.34 99.06 180)
+		(at 179.07 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10779,7 +10783,7 @@
 		)
 		(uuid "ddef08d1-6147-4efc-954e-924f4aa43a86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.7392 99.06 0)
+			(at 166.4692 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,6 +11053,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "S2_TEMP_MULIPLEX"
+		(shape input)
+		(at 274.32 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f14b22bd-c649-4ba5-86e7-9ef0275cad6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.0712 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
