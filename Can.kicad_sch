@@ -3747,7 +3747,7 @@
 		(fields_autoplaced yes)
 		(uuid "368c6d2c-dd01-4db4-bcf8-653273820040")
 		(property "Reference" "R284"
-			(at 179.578 56.3153 0)
+			(at 180.34 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,8 +3755,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 179.578 58.8522 0)
+		(property "Value" "1k"
+			(at 180.34 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8177,7 +8177,7 @@
 	)
 	(global_label "S0_TEMP_MULIPLEX"
 		(shape input)
-		(at 274.32 113.03 180)
+		(at 64.77 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8187,7 +8187,7 @@
 		)
 		(uuid "0d38b64e-b914-46e4-bcb5-c2575e28bf97")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0712 113.03 0)
+			(at 43.5212 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,28 +8747,6 @@
 			)
 		)
 	)
-	(global_label "GPIO14"
-		(shape input)
-		(at 64.77 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39980e0a-3d99-4283-8a43-33d9c7ec66e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6721 78.6606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO53"
 		(shape input)
 		(at 64.77 152.4 180)
@@ -9271,28 +9249,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO15"
-		(shape input)
-		(at 64.77 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6bc529f0-d16b-46e7-ac5c-d36005c9f3b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6721 81.2006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10707,7 +10663,7 @@
 	)
 	(global_label "S1_TEMP_MULIPLEX"
 		(shape input)
-		(at 274.32 115.57 180)
+		(at 64.77 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10717,7 +10673,7 @@
 		)
 		(uuid "d74cf579-3294-4dac-bc2a-d65ac8951b27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0712 115.57 0)
+			(at 43.5212 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,28 +10828,6 @@
 		(uuid "e892485c-094f-43ca-9919-32b2dee63ba5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 55.4626 147.2406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO13"
-		(shape input)
-		(at 64.77 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e95df224-6d5e-428b-ba81-7f437c98100a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6721 76.1206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11059,7 +10993,7 @@
 	)
 	(global_label "S2_TEMP_MULIPLEX"
 		(shape input)
-		(at 274.32 118.11 180)
+		(at 64.77 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11069,7 +11003,7 @@
 		)
 		(uuid "f14b22bd-c649-4ba5-86e7-9ef0275cad6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0712 118.11 0)
+			(at 43.5212 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11654,18 +11588,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e3bedd9-6479-4809-a7c2-fe43997223d8")
 		(property "Reference" "R224"
-			(at 105.41 242.9342 90)
+			(at 105.41 242.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 105.41 245.4711 90)
+		(property "Value" "680"
+			(at 105.41 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,18 +14110,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "569b086b-ba9a-4434-bb55-24f00bd631a6")
 		(property "Reference" "R225"
-			(at 105.41 255.6342 90)
+			(at 105.41 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 105.41 258.1711 90)
+		(property "Value" "680"
+			(at 105.41 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,18 +14177,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5787012e-d09a-4096-9e7d-c53fb5887480")
 		(property "Reference" "R223"
-			(at 105.41 230.2342 90)
+			(at 105.41 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 105.41 232.7711 90)
+		(property "Value" "680"
+			(at 105.41 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14898,7 +14829,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "680"
 			(at 105.41 270.8711 90)
 			(effects
 				(font
