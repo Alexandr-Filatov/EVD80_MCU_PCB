@@ -4812,6 +4812,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 72.39 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5862d2-d131-4cf4-a3b4-d7c6931b69b3")
+		(property "Reference" "R236"
+			(at 74.93 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "560"
+			(at 74.93 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.168 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "180a3b83-a24e-469f-a900-fc2028196cb9")
+		)
+		(pin "2"
+			(uuid "e8a5b7b6-fedc-4d56-8626-ef0255ed3e7b")
+		)
+		(instances
+			(project "EVD80_ControlBoard"
+				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/f942955b-044d-460c-8d93-70538c7f1b1b"
+					(reference "R236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 53.34 146.05 0)
 		(mirror x)
 		(unit 1)
@@ -5434,6 +5504,72 @@
 			(project ""
 				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/f942955b-044d-460c-8d93-70538c7f1b1b"
 					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_Library:VDD_3V3")
+		(at 72.39 111.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49966371-e50f-420a-a512-2924d2482c41")
+		(property "Reference" "#PWR0481"
+			(at 72.39 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_3V3"
+			(at 72.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df265164-e3e1-474d-9ea7-9eb6aeb2aca1")
+		)
+		(instances
+			(project "EVD80_ControlBoard"
+				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/f942955b-044d-460c-8d93-70538c7f1b1b"
+					(reference "#PWR0481")
 					(unit 1)
 				)
 			)
@@ -6167,6 +6303,76 @@
 			(project ""
 				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/f942955b-044d-460c-8d93-70538c7f1b1b"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65fed124-a26f-432f-b710-e36683518a10")
+		(property "Reference" "R235"
+			(at 74.93 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "560"
+			(at 74.93 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.168 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da80d601-20f4-4cc0-bb12-f6d6959f5f73")
+		)
+		(pin "2"
+			(uuid "a97c47f9-634a-4d80-99d2-c5821fdacd26")
+		)
+		(instances
+			(project "EVD80_ControlBoard"
+				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/f942955b-044d-460c-8d93-70538c7f1b1b"
+					(reference "R235")
 					(unit 1)
 				)
 			)
@@ -7525,6 +7731,72 @@
 			(project ""
 				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/f942955b-044d-460c-8d93-70538c7f1b1b"
 					(reference "#PWR0451")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3e2671a-122e-4a3d-adbe-8fe7b282d122")
+		(property "Reference" "#PWR0480"
+			(at 72.39 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7627529f-42c6-4ec2-9288-4652f23a19d7")
+		)
+		(instances
+			(project "EVD80_ControlBoard"
+				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/f942955b-044d-460c-8d93-70538c7f1b1b"
+					(reference "#PWR0480")
 					(unit 1)
 				)
 			)
