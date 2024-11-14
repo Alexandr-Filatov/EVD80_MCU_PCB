@@ -1546,7 +1546,7 @@
 				)
 			)
 		)
-		(symbol "Project_Library:NC7SZ332P6X"
+		(symbol "Project_Library:SN74LVC1G11DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1558,7 +1558,7 @@
 					)
 				)
 			)
-			(property "Value" "NC7SZ332P6X"
+			(property "Value" "SN74LVC1G11DBVR"
 				(at 0 1.524 0)
 				(effects
 					(font
@@ -1566,7 +1566,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1584,7 +1584,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NC7SZ332P6X"
+			(property "Description" "SN74LVC1G11DBVR"
 				(at 0 -13.97 0)
 				(effects
 					(font
@@ -1593,7 +1593,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NC7SZ332P6X_1_1"
+			(symbol "SN74LVC1G11DBVR_1_1"
 				(rectangle
 					(start -5.08 0)
 					(end 5.08 -12.7)
@@ -15400,86 +15400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Project_Library:NC7SZ332P6X")
-		(at 377.19 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa74eef2-da5c-4592-969e-ba374a682420")
-		(property "Reference" "D3"
-			(at 377.19 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NC7SZ332P6X"
-			(at 377.19 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering"
-			(at 377.19 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NC7SZ332P6X"
-			(at 377.19 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0bf1bc52-55e0-4b80-a5de-41aca19988b7")
-		)
-		(pin "1"
-			(uuid "67e6a618-8f5c-4a5d-af00-80ff750597a4")
-		)
-		(pin "2"
-			(uuid "9f679a2e-f461-4c07-8d61-d5a7772cb322")
-		)
-		(pin "6"
-			(uuid "69f028e8-4c41-4634-a1fb-01d71b9aac3e")
-		)
-		(pin "5"
-			(uuid "bdef24a3-da86-4c34-9442-d3519f2bf234")
-		)
-		(pin "4"
-			(uuid "e5d0fc85-76e4-4d8a-a9a2-69e87baf705e")
-		)
-		(instances
-			(project ""
-				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/2fd552e5-6544-49a0-8ed8-7e14a52555a7"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 109.855 88.9 180)
 		(unit 1)
@@ -15763,6 +15683,86 @@
 			(project "EVD80_ControlBoard"
 				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/2fd552e5-6544-49a0-8ed8-7e14a52555a7"
 					(reference "#PWR0419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project_Library:SN74LVC1G11DBVR")
+		(at 377.19 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9cc9148-91e6-400b-aec4-67061b683a5c")
+		(property "Reference" "D3"
+			(at 377.19 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G11DBVR"
+			(at 377.19 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+			(at 377.19 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SN74LVC1G11DBVR"
+			(at 377.19 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b102e366-55d8-4b19-8f8a-7fd7d0019137")
+		)
+		(pin "5"
+			(uuid "c47ff3ab-d7e7-451e-9578-cd253cd81115")
+		)
+		(pin "3"
+			(uuid "43787acf-51a1-45e4-bff2-e88d4c327843")
+		)
+		(pin "6"
+			(uuid "41a6d53b-a4bd-4b9f-9542-41a1e8c5d5d0")
+		)
+		(pin "1"
+			(uuid "d28edb26-b80a-42d4-8707-db4e05e75e53")
+		)
+		(pin "2"
+			(uuid "21c2053e-c6c4-494b-960c-164bc27f6679")
+		)
+		(instances
+			(project ""
+				(path "/b12e5b9f-432a-4ff1-9e0f-375daf75bca9/2fd552e5-6544-49a0-8ed8-7e14a52555a7"
+					(reference "D3")
 					(unit 1)
 				)
 			)
