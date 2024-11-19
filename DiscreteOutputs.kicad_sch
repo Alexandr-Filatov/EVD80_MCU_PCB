@@ -4729,7 +4729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SS16"
 			(at 196.342 105.8422 90)
 			(effects
 				(font
@@ -5225,7 +5225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SS16"
 			(at 82.042 93.1422 90)
 			(effects
 				(font
@@ -5781,7 +5781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SS16"
 			(at 196.342 55.0422 90)
 			(effects
 				(font
@@ -5851,7 +5851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SS16"
 			(at 196.342 156.6422 90)
 			(effects
 				(font
@@ -7212,7 +7212,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SS16"
 			(at 82.042 143.9422 90)
 			(effects
 				(font

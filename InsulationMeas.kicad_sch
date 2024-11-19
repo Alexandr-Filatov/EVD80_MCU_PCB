@@ -5544,7 +5544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT30KFILM"
+		(property "Value" "SS16"
 			(at 73.152 81.153 90)
 			(effects
 				(font
@@ -6922,7 +6922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT30KFILM"
+		(property "Value" "SS16"
 			(at 176.022 81.153 90)
 			(effects
 				(font

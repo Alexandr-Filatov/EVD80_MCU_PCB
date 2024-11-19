@@ -8903,7 +8903,7 @@
 			)
 		)
 		(property "Value" "LMV321RILT"
-			(at 129.54 158.75 0)
+			(at 125.73 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
