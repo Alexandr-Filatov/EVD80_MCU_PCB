@@ -3967,7 +3967,7 @@
 				)
 			)
 		)
-		(property "Value" "147k"
+		(property "Value" "240k"
 			(at 104.5464 104.14 90)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 				)
 			)
 		)
-		(property "Value" "147k"
+		(property "Value" "240k"
 			(at 207.4164 104.14 90)
 			(effects
 				(font
@@ -4438,7 +4438,7 @@
 				)
 			)
 		)
-		(property "Value" "301k"
+		(property "Value" "240k"
 			(at 207.4164 134.62 90)
 			(effects
 				(font
@@ -4852,7 +4852,7 @@
 				)
 			)
 		)
-		(property "Value" "301k"
+		(property "Value" "240k"
 			(at 104.5464 124.46 90)
 			(effects
 				(font
@@ -5968,7 +5968,7 @@
 				)
 			)
 		)
-		(property "Value" "301k"
+		(property "Value" "240k"
 			(at 207.4164 124.46 90)
 			(effects
 				(font
@@ -6513,7 +6513,7 @@
 				)
 			)
 		)
-		(property "Value" "301k"
+		(property "Value" "240k"
 			(at 104.5464 114.3 90)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 				)
 			)
 		)
-		(property "Value" "147k"
+		(property "Value" "240k"
 			(at 104.5464 93.98 90)
 			(effects
 				(font
@@ -6716,7 +6716,7 @@
 				)
 			)
 		)
-		(property "Value" "147k"
+		(property "Value" "240k"
 			(at 207.4164 93.98 90)
 			(effects
 				(font
@@ -7607,7 +7607,7 @@
 				)
 			)
 		)
-		(property "Value" "301k"
+		(property "Value" "240k"
 			(at 207.4164 114.3 90)
 			(effects
 				(font
@@ -7674,7 +7674,7 @@
 				)
 			)
 		)
-		(property "Value" "301k"
+		(property "Value" "240k"
 			(at 104.5464 134.62 90)
 			(effects
 				(font
